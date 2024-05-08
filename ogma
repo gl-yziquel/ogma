@@ -1,0 +1,29 @@
+#!/usr/bin/env -S just --justfile
+
+[private]
+@default:
+	echo
+	echo Ogma CLI for emails.
+	echo ────────────────────
+	echo
+	just --list --unsorted --justfile "{{ justfile() }}"
+
+# List electronic messages.
+list N="10":
+	@himalaya envelope list -s {{N}}
+
+# Read electronic message.
+read N:
+	@himalaya message read {{N}} | bat
+
+# Download attachments of a message.
+attachments N:
+	@himalaya attachment download {{N}}
+
+# Write an email to a recipient.
+write:
+	@himalaya message write
+
+# Replay to an email.
+reply N:
+	@himalaya message reply {{N}}
