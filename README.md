@@ -1,16 +1,24 @@
 Ogma - nicer CLI for email handling with himalaya.
 ==================================================
 
-The ogma tool allows to read, write, and download email attachments.
+
+The `ogma` tool allows to read, write, and download email attachments.
 
 It requires a correctly configured [himalaya][himalaya], as it is a
 wrapper around that very nice tool.
 
-Run `./ogma` to get a summary of available commands.
+Run `./ogma` to get a summary of available commands:
+
+- `./ogma list` will list your emails.
+- `./ogma read \[n°\]` will show email number \[n°\].
+- `./ogma read \[n°\]` will allow you to reply to email number \[n°\].
+- `./ogma write` will allow you to write a new email.
+- `./ogma attachments \[n°\]` will allow you to retrieve the attachments of email number \[n°\] and dump them in the `/tmp` folder hierarchy for temporary files.
 
 That tool is named after the [homonymous deity][ogma], alleged to be the
 inventor of the irish Ogham gaelic script. Please feel free to suggest a
 less stupid name. I guess I watched too much of [American Gods][amazon].
+
 
 Rationale.
 ----------
@@ -37,7 +45,15 @@ language, very useful for prototyping command line interfaces. Feel free
 to draw inspiration from this.
 
 
-[just]: https://github.com/casey/just
+Miscellaneous dependencies.
+---------------------------
+
+The [par][par] tool is used in the `Justfile` as a formatting tool for
+the `README.md`file.
+
+
+[just]: https://just.systems/
 [himalaya]: https://pimalaya.org/himalaya/cli/latest/
+[par]: http://www.nicemice.net/par/
 [ogma]: https://en.wikipedia.org/wiki/Ogma
 [amazon]: https://www.youtube.com/watch?v=z6HLeNl8DOs
