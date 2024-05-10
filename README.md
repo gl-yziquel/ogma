@@ -5,6 +5,10 @@ Ogma - nicer CLI for email handling with himalaya.
 The `ogma` tool allows to read and write emails, and supports
 downloading email attachments. From the command line.
 
+
+Synopsis.
+---------
+
 It requires a correctly configured [himalaya][himalaya], as it is a
 wrapper around that very nice tool.
 
