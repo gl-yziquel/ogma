@@ -15,4 +15,4 @@ import? "local.just"
 
 # Formats the versioned files.
 format:
-	cat README.md | par "-P=[-" > .README.md.par && mv .README.md.par README.md
+	cat README.md | par "-P=[-=" > .README.md.par && mv .README.md.par README.md
