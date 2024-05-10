@@ -14,11 +14,17 @@ wrapper around that very nice tool.
 
 Run `./ogma` to get a summary of available commands:
 
-- `./ogma list` will list your emails.
-- `./ogma read [n°]` will show email number \[n°\].
-- `./ogma read [n°]` will allow you to reply to email number \[n°\].
-- `./ogma write` will allow you to write a new email.
-- `./ogma attachments [n°]` will allow you to retrieve the attachments of email number \[n°\] and dump them in the `/tmp` folder hierarchy for temporary files.
+* `./ogma list` will list your emails.
+
+* `./ogma read [n°]` will show email number \[n°\].
+
+* `./ogma read [n°]` will allow you to reply to email number \[n°\].
+
+* `./ogma write` will allow you to write a new email.
+
+* `./ogma attachments [n°]` will allow you to retrieve the attachments
+of email number \[n°\] and dump them in the `/tmp` folder hierarchy for
+temporary files.
 
 That tool is named after the [homonymous deity][ogma], alleged to be the
 inventor of the irish Ogham gaelic script. Please feel free to suggest a
@@ -58,7 +64,7 @@ the `README.md`file.
 
 
 [just]: https://just.systems/
-[make]: https://www.gnu.org/software/make/manual/make.html
+[make]: https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.4380090402
 [himalaya]: https://pimalaya.org/himalaya/cli/latest/
 [par]: http://www.nicemice.net/par/
 [ogma]: https://en.wikipedia.org/wiki/Ogma
