@@ -10,7 +10,7 @@
 import? "local.just"
 
 # Shows the readme file.
-@readme:
+readme:
 	@bat README.md
 
 # Formats the versioned files.
