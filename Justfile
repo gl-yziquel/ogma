@@ -13,6 +13,10 @@ import? "local.just"
 readme:
 	@bat README.md
 
+# Shows the license file.
+license:
+	@bat LICENSE
+
 # Formats the versioned files.
 format:
 	cat README.md | par "-P=[-=" > .README.md.par && mv .README.md.par README.md
