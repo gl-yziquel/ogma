@@ -28,3 +28,7 @@ write:
 # Replay to an email.
 reply N:
 	@himalaya message reply {{N}}
+
+# Shows the ogma source code.
+source:
+	@bat "{{ justfile() }}"

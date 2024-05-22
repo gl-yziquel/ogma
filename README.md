@@ -30,6 +30,11 @@ That tool is named after the [homonymous deity][ogma], alleged to be the
 inventor of the irish Ogham gaelic script. Please feel free to suggest a
 less lousy name. I guess I watched too much of [American Gods][amazon].
 
+The name `ogma` is indeed used in [other projects][other], which
+warrants a renaming.
+
+[other]: https://github.com/ogmacorp/OgmaNeo2.git
+
 
 Rationale.
 ----------
