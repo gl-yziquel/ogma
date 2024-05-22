@@ -5,6 +5,12 @@ Ogma - nicer CLI for email handling with himalaya.
 The `ogma` tool allows to read and write emails, and supports
 downloading email attachments. From the command line.
 
+NOTE: To enable the `HIMALAYA_CONFIG` environment variable to set the
+location of the configuration file, for instance of per folder hierarchy
+basis using `direnv`, see this [fork/PR][himalaya-env].
+
+[himalaya-env]: https://github.com/gl-yziquel/himalaya/tree/yziquel
+
 
 Synopsis.
 ---------
