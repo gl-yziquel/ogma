@@ -24,7 +24,7 @@ Run `./ogma` to get a summary of available commands:
 
 * `./ogma read [n°]` will show email number \[n°\].
 
-* `./ogma read [n°]` will allow you to reply to email number \[n°\].
+* `./ogma reply [n°]` will allow you to reply to email number \[n°\].
 
 * `./ogma write` will allow you to write a new email.
 
